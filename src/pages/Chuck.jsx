@@ -70,3 +70,5 @@ export default function Chuck() {
     </div>
   );
 }
+
+// redux trivia

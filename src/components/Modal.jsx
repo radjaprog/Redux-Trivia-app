@@ -37,3 +37,5 @@ export default function Modal({ title, description, onClose }) {
     </dialog>
   );
 }
+
+// redux trivia

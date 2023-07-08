@@ -20,3 +20,5 @@ export default configureStore({
 for (let saga in sagas) {
   sagaMiddleware.run(sagas[saga]);
 }
+
+// redux trivia

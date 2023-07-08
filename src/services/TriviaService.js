@@ -53,3 +53,5 @@ class TriviaService {
 const triviaService = new TriviaService();
 
 export default triviaService;
+
+// redux trivia

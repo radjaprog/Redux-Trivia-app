@@ -39,3 +39,5 @@ class ChuckService {
 
 const chuckService = new ChuckService();
 export default chuckService;
+
+// redux trivia

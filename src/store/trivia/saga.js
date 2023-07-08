@@ -53,3 +53,5 @@ export function* watchGetCategories() {
 export function* watchGetCluesByCategory() {
   yield takeLatest(performGetCluesByCategory.type, getCluesByCategory);
 }
+
+// redux trivia

@@ -28,3 +28,5 @@ function SingleTrivia({ trivia }) {
 }
 
 export default SingleTrivia;
+
+// redux trivia

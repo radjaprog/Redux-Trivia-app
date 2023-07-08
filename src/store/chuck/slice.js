@@ -33,3 +33,5 @@ export const {
 } = chuckSlice.actions;
 
 export default chuckSlice.reducer;
+
+// redux trivia

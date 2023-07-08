@@ -28,3 +28,5 @@ export function* watchGetRandomJoke() {
 export function* watchGetJokeCategories() {
   yield takeLatest(performGetJokeCategories.type, getJokeCategories);
 }
+
+// redux trivia

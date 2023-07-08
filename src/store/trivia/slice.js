@@ -35,3 +35,5 @@ export const {
 } = triviaSlice.actions;
 
 export default triviaSlice.reducer;
+
+// redux trivia

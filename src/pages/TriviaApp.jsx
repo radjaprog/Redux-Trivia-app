@@ -122,3 +122,5 @@ export default function TriviaApp() {
     </div>
   );
 }
+
+// redux trivia

@@ -1,3 +1,5 @@
-const selectChuckValue = (state) => state.chuck.value;
+const selectJoke = (state) => state.chuck.joke;
 
-export { selectChuckValue };
+const selectCategories = (state) => state.chuck.categories;
+
+export { selectJoke, selectCategories };

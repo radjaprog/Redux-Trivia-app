@@ -2,23 +2,34 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const middlewareActions = {
-  // saga actions
+  performGetRandomJoke: () => {},
+  performGetJokeCategories: () => {},
 };
 
 export const chuckSlice = createSlice({
   name: "chuck",
   initialState: {
-    value: "",
+    joke: "",
+    categories: [],
   },
   reducers: {
-    // actions
+    setRandomJoke: (state, action) => {
+      state.joke = action.payload;
+    },
+
+    setCategories: (state, action) => {
+      state.categories = action.payload;
+    },
 
     ...middlewareActions,
   },
 });
 
 export const {
-  // reducers
+  setRandomJoke,
+  setCategories,
+  performGetJokeCategories,
+  performGetRandomJoke,
 } = chuckSlice.actions;
 
 export default chuckSlice.reducer;

@@ -6,13 +6,17 @@ import reportWebVitals from "./reportWebVitals";
 import DefaultLayout from "./layout";
 // import-ujemo DefaultLayout iz file index.js ili index.jsx koji se nalazi unutar folder-a ./layout
 import { BrowserRouter } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from "./store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    <DefaultLayout>
-      <App />
-    </DefaultLayout>
+    <Provider store={store}>
+      <DefaultLayout>
+        <App />
+      </DefaultLayout>
+    </Provider>
   </BrowserRouter>
 );
 //wrapujemo App unutar <DefaultLayout />

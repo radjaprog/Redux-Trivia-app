@@ -7,9 +7,7 @@ import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Router />
-      </BrowserRouter>
+      <Router />
     </div>
   );
 }

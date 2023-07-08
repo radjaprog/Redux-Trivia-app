@@ -9,6 +9,9 @@ export default function Router() {
       <Route exact path="/">
         <TriviaApp />
       </Route>
+      <Route path="/chuck">
+        <Chuck />
+      </Route>
     </Switch>
   );
 }

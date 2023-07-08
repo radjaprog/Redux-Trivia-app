@@ -3,11 +3,9 @@ import Navbar from "./Navbar";
 
 export default function DefaultLayout({ children }) {
   return (
-    <div>
-      <div>
-        <Navbar />
-      </div>
+    <>
+      <Navbar />
       <div>{children}</div>
-    </div>
+    </>
   );
 }

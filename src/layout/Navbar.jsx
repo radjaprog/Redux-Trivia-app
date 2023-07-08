@@ -9,6 +9,9 @@ export default function Navbar() {
         <li className="navbar-brand">
           <Link to="/">TriviaApp</Link>
         </li>
+        <li className="navbar-item">
+          <Link to="/chuck">Chuck</Link>
+        </li>
       </ul>
     </div>
   );
